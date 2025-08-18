@@ -1,33 +1,33 @@
-# 📚 Class Reminder App
+#  Class Reminder App
 
 A web-based platform that helps teachers assign and manage reminders for students. Teachers can send assignment, revision, or task reminders to individual students, while students manage and update their own task lists independently.
 
-> 🚀 **Live Demo**: [https://todo-list-app-yeui.onrender.com](https://todo-list-app-yeui.onrender.com)
+>  **Live Demo**: [https://todo-list-app-yeui.onrender.com](https://todo-list-app-yeui.onrender.com)
 
 ---
 
-## ✨ Features
+##  Features
 
-### ✅ For All Users
+###  For All Users
 - Secure registration and login
 - View personal reminder list
 - Edit, complete, or delete personal reminders
 - JWT authentication via secure cookie
 
-### 🧑‍🏫 For Teachers (Admin Role)
+###  For Teachers (Admin Role)
 - View a list of all registered students
 - View any student's reminder list
 - Add/edit/delete reminders **for any student**
 - Use a teacher-specific interface with expanded access
 
-### 👩‍🎓 For Students
+###  For Students
 - Manage only their own reminders
 - Cannot view or modify other users' data
 - Simple interface for personal use
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer        | Tools/Frameworks                           |
 |--------------|---------------------------------------------|
@@ -42,7 +42,7 @@ A web-based platform that helps teachers assign and manage reminders for student
 
 ---
 
-## 🔐 Roles and Permissions
+##  Roles and Permissions
 
 | Role    | Can View | Can Edit | Notes |
 |---------|----------|----------|-------|
@@ -51,7 +51,7 @@ A web-based platform that helps teachers assign and manage reminders for student
 
 ---
 
-## 📸 Sample Use Cases
+##  Sample Use Cases
 
 - **Teacher:** “Remind John to review for Thursday’s quiz.”
 - **Student:** Sees reminder on login, marks complete after finishing.
