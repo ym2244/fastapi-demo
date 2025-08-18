@@ -59,7 +59,7 @@ A web-based platform that helps teachers assign and manage reminders for student
 
 ---
 
-## 💡 Future Ideas
+##  Future Ideas
 
 - Add due dates and filtering
 - Send automated reminder emails
