@@ -2,7 +2,7 @@
 
 A web-based platform that helps teachers assign and manage reminders for students. Teachers can send assignment, revision, or task reminders to individual students, while students manage and update their own task lists independently.
 
->  **Live Demo**: [https://todo-list-app-yeui.onrender.com](https://todo-list-app-yeui.onrender.com)
+>  **Live Demo**: [https://class-reminder-app.onrender.com](https://class-reminder-app.onrender.com)
 
 ---
 
