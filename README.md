@@ -59,6 +59,14 @@ A web-based platform that helps teachers assign and manage reminders for student
 
 ---
 
+## Running Locally
+
+```bash
+uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+---
+
 ##  Future Ideas
 
 - Add due dates and filtering

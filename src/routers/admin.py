@@ -10,7 +10,7 @@ from fastapi.responses import HTMLResponse
 from .todos import TodoRequest
 
 
-templates = Jinja2Templates(directory="TodoApp/templates")
+templates = Jinja2Templates(directory="src/templates")
 
 
 router = APIRouter(

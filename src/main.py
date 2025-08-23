@@ -17,7 +17,7 @@ Base.metadata.create_all(bind=engine)
 app.add_middleware(SessionMiddleware, secret_key=os.getenv("SECRET_KEY"))
 
 
-app.mount("/static", StaticFiles(directory="TodoApp/static"), name="static") 
+app.mount("/static", StaticFiles(directory="src/static"), name="static") 
 # Mount the /static path and name it "static"
 # This allows referencing static files in templates using url_for("static", path="img/xxx.png")
 # The resulting path is /static/img/xxx.png

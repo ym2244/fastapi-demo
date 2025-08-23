@@ -6,9 +6,9 @@ from datetime import timedelta
 import os
 import traceback
 
-from TodoApp.models import Users
-from TodoApp.database import SessionLocal
-from TodoApp.routers.auth import create_access_token
+from src.models import Users
+from src.database import SessionLocal
+from src.routers.auth import create_access_token
 
 router = APIRouter()
 

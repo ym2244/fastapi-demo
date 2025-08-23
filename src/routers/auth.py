@@ -71,7 +71,7 @@ db_dependency = Annotated[Session, Depends(get_db)]
 # The equal sign here is not assignment, but gives a type object a variable name for reuse later, treated as a type, not a value.
 # Annotated[...] is essentially a tool for combining "type + additional metadata", not limited to dependency injection scenarios.
 
-templates = Jinja2Templates(directory="TodoApp/templates") 
+templates = Jinja2Templates(directory="src/templates") 
 
 
 
